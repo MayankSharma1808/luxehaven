@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import AlertMessage from '../components/AlertMessage';
@@ -143,14 +143,14 @@ const LoginPage = () => {
                   <button
                     type="button"
                     className="btn btn-outline-secondary btn-sm rounded-pill px-3"
-                    onClick={() => handleDemoLogin('customer@luxehaven.com', 'CustomerPass123!')}
+                    onClick={() => handleDemoLogin('customer@hotelpro.com', 'CustomerPass123!')}
                   >
                     Demo Customer
                   </button>
                   <button
                     type="button"
                     className="btn btn-outline-danger btn-sm rounded-pill px-3"
-                    onClick={() => handleDemoLogin('admin@luxehaven.com', 'AdminPassword123!')}
+                    onClick={() => handleDemoLogin('admin@hotelpro.com', 'AdminPassword123!')}
                   >
                     Demo Admin
                   </button>
